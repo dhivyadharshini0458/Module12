@@ -29,8 +29,22 @@ To write a Python program that:
    - Otherwise, print "Stack is not full".
 
 ## 📝 Program
-Add Code here
+```
+from queue import LifoQueue
+
+stack = LifoQueue(maxsize=4)
+
+stack.put('a')
+stack.put('b')
+stack.put('c')
+if stack.full():
+    print("Stack is full")
+else:
+    print("Stack is not full")
+```
 
 ## Sample Input & Output
+<img width="499" height="126" alt="Screenshot 2026-03-28 103922" src="https://github.com/user-attachments/assets/33c8b663-b907-43db-a339-2bf92e9ed7d9" />
 
 ## Result
+Thus, the python program to check and display whether the stack is full or not using linked list has been executed successfully.
